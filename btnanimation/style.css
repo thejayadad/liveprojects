@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #222;
+    flex-direction: column;
+    gap: 15px;
+  }
+  h2{
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+    color: white;
+  }
+  .bounce-btn {
+    padding: 12px 24px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .bounce-btn:hover {
+    transform: translateY(-15px);
+  }
+  
+  .bounce-btn:active {
+    transform: translateY(12px);
+  }
+  
