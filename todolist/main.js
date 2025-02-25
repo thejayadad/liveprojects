@@ -18,7 +18,6 @@ function addTask() {
       li.querySelector('.task-text').classList.toggle('completed');
     });
 
-    // Delete task
     li.querySelector('.delete-btn').addEventListener('click', () => {
       li.remove();
     });
