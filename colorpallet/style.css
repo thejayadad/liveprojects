@@ -13,39 +13,35 @@ h2{
     text-align: center;
     padding: 20px;
   }
-  
-  button {
-    background-color: orangered;
+
+
+  button{
+    background: orangered;
     color: white;
     padding: 5px 10px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
   }
-  
-  button:hover {
+  button:hover{
     background-color: orange;
   }
-  
-  .palette {
+  .palette{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 10px;
   }
-  
-  .color-box {
+  .color-box{
     width: 100px;
     height: 100px;
     margin: 10px;
     border-radius: 5px;
     position: relative;
   }
-  
-  .color-box .hex-code {
+  .color-box .hex-code{
     position: absolute;
     bottom: 5px;
     left: 5px;
     color: white;
-    font-size: 12px;
+    font-size: 10px;
   }
-  
